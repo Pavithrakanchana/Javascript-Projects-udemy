@@ -7,8 +7,8 @@ async function selectedMediaStream() {
         const mediaStream = await  navigator.mediaDevices.getDisplayMedia();
         videoElement.srcObject = mediaStream;
         videoElement.onloadedmetadata = () => {
-            console.log('inside selectedMediaStream func')
-            //videoElement.onplay();
+            console.log('inside selectedMediaStream func');
+            videoElement.play();
         }
     } catch (error){
         //catch error here
