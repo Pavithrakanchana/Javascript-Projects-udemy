@@ -1,0 +1,6 @@
+third-party libs used:
+AOS animation - https://michalsnik.github.io/aos/
+html formatter - https://htmlformatter.com/
+unsplash for images - https://unsplash.com/
+random users for user images - https://randomuser.me/photos
+tailwind css for project template - https://www.creative-tim.com/david-ui
